@@ -1,0 +1,11 @@
+# venv Lib for python
+venv
+venv/Lib
+venv/Include
+venv/Scripts
+
+# Git
+.git
+
+# Idea Files
+.Idea
