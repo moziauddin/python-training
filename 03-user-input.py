@@ -6,6 +6,7 @@ print("And, you are", age, "years old")
 # The input variables are all considered as text strings
 # So the below command will produce result of "NameAge" Ex: Mo22
 print(name + age)
+input('Press any key to exit...')
 
 '''
 Output:

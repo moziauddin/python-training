@@ -27,6 +27,8 @@ print(a % c)
 # BEDMAS
 print(d + (d - c / a) * d + b)
 
+# Print all declared variable names...
+print(dir())
 '''
 OUTPUT:
 ---------------------------
