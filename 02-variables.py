@@ -24,6 +24,14 @@ print(emp_sal, emp_name, "bears employee number", emp_num, "and earns $", emp_sa
 # Adding two strings
 print(emp_sal, emp_name)
 
-
+'''
+OUTPUT: 
+-----------------------------------------------------
+32.980000000000004
+1000 10112 Mo
+Mo bears employee number 10112 and earns $1000
+Mr.  Mo bears employee number 10112 and earns $ 1000
+Mr.  Mo
+'''
 
 

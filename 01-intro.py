@@ -22,3 +22,23 @@ num_123 = 4
 print(a)
 a = 5
 print(a)
+
+'''
+Output:
+----------------
+Hello World
+3
+33
+hello 
+ world
+hello 	 world
+hello
+Peter
+hello Peter
+Patric's Pencil
+Patric's Pencil
+Patric"s Pencil
+1
+5
+'''
+
