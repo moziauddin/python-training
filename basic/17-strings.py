@@ -18,6 +18,7 @@ print(len(a))
 
 # Print certain charanter in a string by index in uppercase
 print(a[2].upper())
+print(a[-3].upper())
 
 # Print characters of a string from and to a position
 print(a[:4])  # Begining to 4 charanters, index 4 is not inclusive
