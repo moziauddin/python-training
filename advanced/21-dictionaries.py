@@ -1,0 +1,18 @@
+# Dictionaries are lists of key-value pairs
+dict1 = {}
+print("Empty Dictionary", dict1)
+dict1 = {'name': 'Neo', 'age': 23, 'job': 'Hacker'}
+print("Dictionary with items:", dict1)
+print("After Clearing:", dict1.clear())
+dict1 = {'name': 'Neo', 'age': 23, 'job': 'Hacker'}
+
+# Get values using the keys
+print(dict1["name"], "is", dict1["age"], "years old. He is a", dict1["job"], ".")
+# Add key value pair to the dictionary
+dict1["hobby"] = 'Phishing'
+print(dict1["name"], "is", dict1["age"], "years old. He is a", dict1["job"], ". His hobby is", dict1["hobby"], ".")
+print(dict1)
+
+# Delete a key value pair
+del dict1["age"]
+print(dict1)
