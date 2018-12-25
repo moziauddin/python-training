@@ -39,7 +39,8 @@ Output:
 1545714772.0954037
 Tue Dec 25 16:12:52 2018
 1545714772.0954037
-time.struct_time(tm_year=2018, tm_mon=12, tm_mday=25, tm_hour=16, tm_min=12, tm_sec=52, tm_wday=1, tm_yday=359, tm_isdst=1)
+time.struct_time(tm_year=2018, tm_mon=12, tm_mday=25, tm_hour=16, tm_min=12, tm_sec=52, \
+tm_wday=1, tm_yday=359, tm_isdst=1)
 TUE DEC 25 16:12:52 2018
 <class 'float'>
 <class 'time.struct_time'>
