@@ -16,3 +16,15 @@ print(dict1)
 # Delete a key value pair
 del dict1["age"]
 print(dict1)
+
+'''
+Output:
+-----------------------------
+Empty Dictionary {}
+Dictionary with items: {'name': 'Neo', 'age': 23, 'job': 'Hacker'}
+After Clearing: None
+Neo is 23 years old. He is a Hacker .
+Neo is 23 years old. He is a Hacker . His hobby is Phishing .
+{'name': 'Neo', 'age': 23, 'job': 'Hacker', 'hobby': 'Phishing'}
+{'name': 'Neo', 'job': 'Hacker', 'hobby': 'Phishing'}
+'''
