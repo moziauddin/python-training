@@ -9,3 +9,6 @@ venv/Scripts
 
 # Idea Files
 .Idea
+
+# Test Files for files module
+advanced/files
