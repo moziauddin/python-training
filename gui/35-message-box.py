@@ -46,6 +46,7 @@ menu1.add_cascade(label='Help', menu=list3)
 
 list1.add_command(label='New', command=newfile)
 list1.add_command(label='Open', command=mopen)
+list1.add_checkbutton(label='Debug Mode')
 list1.add_command(label='Close', command=mclose)
 list1.add_command(label='Quit', command=mquit)
 
