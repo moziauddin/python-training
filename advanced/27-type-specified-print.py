@@ -26,6 +26,10 @@ print("{:4} is a {:8}.".format(name, occupation))  # Adds spaces for padding
 for i in range(1, 11):
     print("{:2} {:3} {:3}".format(i, i*i, i*i*i))
 
+# Format function using named tuples
+age = 12
+print("I am {age} years old, are you {age} years old too?".format(age=age))
+
 '''
 Output:
 --------------------------------
@@ -43,5 +47,6 @@ Neo  is a Hacker  .
  8  64 512
  9  81 729
 10 100 1000
+I am 12 years old, are you 12 years old too?
 
 '''
