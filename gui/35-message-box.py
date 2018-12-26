@@ -19,11 +19,16 @@ def newfile():
 
 def mquit():
     print('Clicked on Quit')
-    #messagebox.showinfo(title='quit-gui', message='Are you sure, you want to quit')
-
+    closeBool = messagebox.askyesnocancel(title='quit-gui', message='Are you sure, you want to quit')
+    if closeBool == 1:
+        win1.destroy()
 
 def mclose():
     print('Clicked on Close')
+    messagebox.showinfo(title='quit-gui', message='Are you sure, you want to close')
+
+def mopen():
+    print('Clicked on Open')
 
 textval = StringVar()
 lab1 = Label(text='Your Name:', fg='lemon chiffon', bg='saddle brown').grid(row=0, column=0)
@@ -40,7 +45,7 @@ menu1.add_cascade(label='Settings', menu=list2)
 menu1.add_cascade(label='Help', menu=list3)
 
 list1.add_command(label='New', command=newfile)
-list1.add_command(label='Open')
+list1.add_command(label='Open', command=mopen)
 list1.add_command(label='Close', command=mclose)
 list1.add_command(label='Quit', command=mquit)
 
