@@ -1,7 +1,7 @@
 a = 21
 b = "Mo"
 c = 21.98
-d = "11" # This is a string
+d = "11"  # This is a string
 # Adding unlike types results in error
 # print (c + d) WILL FAIL
 print(c + int(d))
@@ -10,7 +10,7 @@ print(c + int(d))
 emp_name = "Mo"
 emp_sal = "Mr. "
 emp_num = 10112
-emp_salary = 1000
+emp_salary = int(input('Enter a figure for Salary:'))
 
 # Just print variables in one line
 print(emp_salary, emp_num, emp_name)
