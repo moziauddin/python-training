@@ -46,6 +46,18 @@ def age_in_secs():
 
 
 age_in_secs()
+
+def cel_to_far(temp):
+    return temp * 9 / 5 + 32
+
+print(cel_to_far(32))
+
+def length_of_str():
+    s1 = input('Enter a String to get its length:')
+    return len(s1)
+    # return s1.__len__()  # This works too
+
+print(length_of_str())
 '''
 Output: 
 -----------------------------
