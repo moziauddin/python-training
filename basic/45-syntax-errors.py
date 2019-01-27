@@ -39,4 +39,12 @@ a = 1
 b = '2'
 print(int(2.5))
 print(a + int(b))
-print(522/0)
+print(522/8)
+
+def divide(a, b):
+    try:
+        return a/b
+    except:
+        print("You cannot divide by 0")
+
+divide(34, 0)
