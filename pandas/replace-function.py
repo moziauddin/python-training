@@ -35,3 +35,7 @@ df5 = df1.replace({
     'wind': '[A-Za-z]'
 }, '', regex=True)  # Using a disctionary
 print('DF5 Again:\n', df5)
+
+df6 = pd.read_csv('files/students.csv')
+print('DF8:\n', df6)
+print(df6.replace(['Exceptional', 'Great', 'Average', 'Poor', 'Hopeless'], [10,5,4,3,2]))
