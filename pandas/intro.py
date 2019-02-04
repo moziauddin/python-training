@@ -43,7 +43,7 @@ print(df3.head(2))  # Skips the header row
 
 df4 = pd.read_csv('files/sample.csv', header=None)
 print(df4.head(2))  # Adds column index as well
-
+067
 df5 = pd.read_csv('files/sample.csv', nrows=3)
 print(df5)  # Only reads three rows
 
