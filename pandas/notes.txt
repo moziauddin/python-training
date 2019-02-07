@@ -1,0 +1,34 @@
+NOTES:
+
+Series- can be created from any datatype
+        it is like a 1 dimentional numpy-array
+        vectorized operations can be performed on Series
+        Decl: ser1 = Series ...
+        Dictionary like
+
+Dataframes:
+        2D numpy array
+        any data-type
+        Decl: df = ...
+        rows are labeled using indexes
+        Dictionary like
+
+Index:
+        What the data is associated with
+
+We can perform the following tasks on data:
+        slice
+        move column
+        math operations
+        ref prior rows
+        built in moving averages
+        standard deviation
+        graphing - bar, line, pie, etc
+
+Install the below
+udo pip3 install pandas-datareader - For using dataframes
+sudo pip3 install pandas - For using pandas
+sudo pip3 install matplotlib - For plotting
+sudo zypper install python3-tk - For plotting-gui to come up
+
+Use try-pandas/create-sample-csv-data.py to generate sample csv file
