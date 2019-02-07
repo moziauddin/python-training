@@ -16,8 +16,26 @@ print(c[-1])  # Prints last row
 print(c[-1,1:3])
 
 print(c[:,1])  # Prints middle column and all rows
-
+print(c.flat)
 for cell in c.flat:
-    print(cell)
+    print(cell)  # prints items in the flat one at a time
 
-print(c.ravel())
+print('Ravel:', c.ravel())  # Print an array as a 1d list
+
+d = np.arange(6).reshape(2,3)
+e = np.arange(6,12).reshape(2,3)
+print(d, '\n', e)
+f = np.vstack((d,e))  # Vertical Stacking
+print(f)
+g = np.hstack((d,e))  # Horizontal stacking
+print(g)
+
+split_array = np.hsplit(g,3)
+for idx,ar in enumerate(split_array):
+    print('Index:', idx)
+    print('Array:\n', ar)
+
+h = e < d
+print(h)
+
+print(d[d<e])  # Returns elements that satisfy the condition
