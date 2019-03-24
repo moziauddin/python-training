@@ -15,7 +15,7 @@ plt.show()
 #  Save plot to a file
 plt.plot(x,norm.pdf(x))
 plt.plot(x, norm.pdf(x,1,.5))
-plt.savefig("sample-fig.png", format="png")
+plt.savefig("02-sample-fig.png", format="png")
 
 # Adjusting Axes
 axes = plt.axes()
