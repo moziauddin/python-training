@@ -11,9 +11,10 @@ print(a, name)
 # this is a comment
 ''' this is multi line comment
 ends here '''
+# This is a comment
 print('Patric\'s Pencil')
 print("Patric\'s Pencil")
-print("Patric\"s Pencil")
+print("Patric\'s Pencil")
 # VARIABLES
 a = 1
 num = 2

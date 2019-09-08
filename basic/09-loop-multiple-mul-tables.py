@@ -2,18 +2,18 @@
 num = int(input("Please enter a number: "))
 for i in range(1,num+1):
     for j in range(1,11):
-        print(j, "x", i, "=", (j * i))
+        print(i, "x", j, "=", (j * i))
 
 print('-------------------------------')
 # All multiplication tables from 1 to n using WHILE Loop
 
-i = 1
-while i <= num:
-    j = 1
-    while j <= 10:
-        print(j, "x", i, "=", (j * i))
-        j = j + 1
-    i = i + 1
+# i = 1
+# while i <= num:
+#     j = 1
+#     while j <= 10:
+#         print(j, "x", i, "=", (j * i))
+#         j = j + 1
+#     i = i + 1
 
 '''
 Output:

@@ -44,7 +44,7 @@ targets = data['class'].values
 classifier.fit(counts, targets)
 print('COUNTS:', counts)
 print('TARGETS:', targets)
-
+print(data['message'].values)
 example_body = ['Free Viagra Now!!!', 'How are you feeling tonight!!!', "Hi there", 'FREE']
 example_counts = vectorizer.transform(example_body)
 prediction = classifier.predict(example_counts)

@@ -10,3 +10,5 @@ print(math.sqrt(9))
 
 # Get Help for a module
 print(help(math))
+
+print(bin(7))

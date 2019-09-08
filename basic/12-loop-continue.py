@@ -3,9 +3,9 @@
 i = 1
 while i < 10:
     i = i + 1
-    if i < 5:
+    if i < 8:
         continue
-    print(i)
+    print(i*10)
 
 '''
 Output:

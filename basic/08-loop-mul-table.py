@@ -1,6 +1,6 @@
 # MULTIPLICATION TABLE - Using For
 num = int(input("Please enter a Number: "))
-for i in range(11):
+for i in range(1,11):
     print(num, "x", i, "=", (num*i))
 
 print('------------------------------------')

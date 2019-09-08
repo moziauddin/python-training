@@ -1,8 +1,8 @@
 # Break statement using while
 i = 1
-while i <= 100:
+while i <= 10:
     print(i)
-    if i == 50:
+    if i == 9:
         break
     i = i + 1
 

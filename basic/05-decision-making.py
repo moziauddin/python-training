@@ -1,5 +1,5 @@
 # IF Statement
-a = 10
+a = 11
 if a == 10:
     print(a)
     print("A is now 10")
@@ -19,7 +19,7 @@ if x == 1:
         print(z)
 print('-------------------')
 # Else If
-if x == 12:
+if x == 1:
     print(x)
 elif y == 2:
     print(y)
