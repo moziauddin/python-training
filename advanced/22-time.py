@@ -2,24 +2,24 @@
 
 import time
 # Print Time frame
-print(time.time())
+print('Time Now: ', time.time())
 # Print ASC Time (HR Format)
-print(time.asctime())
+print('ASC Time Now', time.asctime())
 time1 = time.time()
-print(time1)
+print('Time 1 value is: ', time1)
 # Print Local Time in tuple format
-print(time.localtime(time1))
+print('Local time now: ', time.localtime(time1))
 time2 = time.asctime()
-print(time2.upper())  # Prints Time in all CAPS
+print('Print ACS Time in upper case', time2.upper())  # Prints Time in all CAPS
 
 # Sample Scenario: User action time stamp
 # Timestamp is collected un loginTime variable
 loginTime = time.time()
-print(type(loginTime))
+print('Login Time Type', type(loginTime))
 loginTimeLoc = time.localtime(loginTime)
-print(type(loginTimeLoc))
+print('Local Time Type', type(loginTimeLoc))
 loginTimeAsc = time.asctime(loginTimeLoc)
-print(type(loginTimeAsc))
+print('ACS Time Type', type(loginTimeAsc))
 print("User logged in:", loginTimeAsc)
 time.sleep(2)
 

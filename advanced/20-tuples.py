@@ -1,4 +1,4 @@
-tup1 = (1, 2, 3, 4, 5)
+tup1 = 1, 2, 3, 4, 5
 tup2 = ('Neo', 23, "Hacker")
 
 print('Tuple1:', tup1)

@@ -1,7 +1,7 @@
 # Dictionaries are lists of key-value pairs
 dict1 = {}
 print("Empty Dictionary", dict1)
-dict1 = {'name': 'Neo', 'age': 23, 'job': 'Hacker'}
+dict1 = {'name': 'Neo', 'age': 23, 'job': 'Hacker', 'cars': ['chevy', 'ford']}
 print("Dictionary with items:", dict1)
 print("After Clearing:", dict1.clear())
 dict1 = {'name': 'Neo', 'age': 23, 'job': 'Hacker'}
@@ -16,6 +16,9 @@ print(dict1)
 # Delete a key value pair
 del dict1["age"]
 print(dict1)
+
+dict33 = dict(abc=123)
+print(dict33)
 
 '''
 Output:

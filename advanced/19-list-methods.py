@@ -1,5 +1,5 @@
 # List Methods
-list1 = ['peter', 44, 'Rachel', 9, 99]
+list1 = ['peter', 44, 'Rachel', 9, 99, 'Rachel']
 # Print list items one in each row
 for i in list1:
     print(i)
@@ -9,6 +9,7 @@ print("Appended Rachel to the end of the list:", list1)
 # Print how many times a element exists in a list
 print("Number of times Rachel occurs in list1 is", list1.count('Rachel'))
 print("Index of first instance of Rachel is", list1.index('Rachel'))
+print("Index of instance of Rachel starting from postition 4", list1.index('Rachel', 3))
 # Remove first instance of a element based on its value
 list1.remove('Rachel')
 print("Removed first instance of rachel", list1)
@@ -23,6 +24,10 @@ print("Reversed List", list1)
 # Remove an item from the list
 print(list1.pop())
 print("After deleting the last item", list1)
+
+# Empty the List
+print(list1)
+print("After enptying the List", list1.clear())
 
 '''
 Output:

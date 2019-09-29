@@ -6,7 +6,7 @@ for i in range(1, num):
     for j in range(1, 11):
         print(i, "x", j, "=", i*j)
     print('-------------')
-    input("Press any key to print next table")
+    input("Press Enter key to print next table")
 
 '''
 Output:
