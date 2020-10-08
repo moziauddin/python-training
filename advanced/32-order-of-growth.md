@@ -19,6 +19,9 @@
  |Dictionary operations|dict = {0,1} |Constant time|
  
  ### Search Algorithms
+ 
+ |Operation|OoG|
+ |----|----|----|
  |Linear search| Linear O(n)|
  |Binary search| Linear O(log n)|
  
