@@ -21,7 +21,7 @@
  ### Search Algorithms
  
  |Operation|OoG|
- |----|----|----|
+ |----|----|
  |Linear search| Linear O(n)|
  |Binary search| Linear O(log n)|
  
