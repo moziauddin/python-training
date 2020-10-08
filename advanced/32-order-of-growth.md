@@ -27,6 +27,8 @@
 
 ### Sorting Algorithms
 
+|Operation|OoG|
+|----|----|
 |Bogo Sort| Unbounded O(n+1)!|
 |Selection Sort|**O(n^2)** for search & O(n) swaps|
 |Insertionn Sort|**O(n^2)** and O(n^2) swaps|
