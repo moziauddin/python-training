@@ -12,7 +12,7 @@
  |String concat|name = "First" + "last"|Linear O(n)|
  |Getting a char from string|char = String[0]|Constant time|
  |Get len of string|len(string)|Constant time|
- |Adding a list of Strings|for i in range(10): a += "hello" |Quadratic O(n**n) |
+ |Adding a list of Strings|for i in range(10): a += "hello" |Quadratic O(n^2) |
  |Sorting List|list.sort()|Linear O(n log n)|
  |Adding to list|list.append(4)|Constant time|
  |Copy a list|list1 = list2|Linear O(n)|
@@ -20,8 +20,16 @@
  
  ### Search Algorithms
  
- |Operation|OoG|
- |----|----|
- |Linear search| Linear O(n)|
- |Binary search| Linear O(log n)|
- 
+|Operation|OoG|
+|----|----|
+|Linear search| Linear O(n)|
+|Binary search| Logarithmic O(log n)|
+
+### Sorting Algorithms
+
+|Bogo Sort| Unbounded O(n+1)!|
+|Selection Sort|**O(n^2)** for search & O(n) swaps|
+|Insertionn Sort|**O(n^2)** and O(n^2) swaps|
+|Bubble Sort|**O(n^2)** and O(n^2) swaps|
+|Quick Sort| **O(n^2)** and O(n^2) swaps|
+|Merge Sort|O(n log n)|
